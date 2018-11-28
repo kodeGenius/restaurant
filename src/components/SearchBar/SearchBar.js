@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+//import ReactDOM from 'react-dom';
 import './SearchBar.css';
 
 const sortByOptions = {
@@ -12,9 +12,10 @@ class SearchBar extends React.Component{
 			renderSortByOptions() {
   				return Object.keys(sortByOptions).map(sortByOption => {
   				let sortByOptionValue = sortByOptions[sortByOption];
-  				return<li {key=sortByOptionValue}>{sortByOption}</li>
- 		 		})
+  				return<li key={sortByOptionValue}>{sortByOption}</li>
+ 		 		});
 			}
+
 	render(){
 		return(
 			<div className="SearchBar">
@@ -28,11 +29,11 @@ class SearchBar extends React.Component{
 			    <input placeholder="Where?" />
 			  </div>
 			  <div className="SearchBar-submit">
-			    <a>Let's Go</a>
+			    <a href='1000coders.com'>Let's Go</a>
 			  </div>
 			</div>
 		)
 	}
-};
+}
 
 export default SearchBar;
