@@ -24,7 +24,7 @@ class App extends Component {
       <div class="App">
         <h1>restaurant</h1>
         <SearchBar />
-        <BusinessList /> 
+        <BusinessList businesses = {businesses} /> 
       </div>
     );
   }
