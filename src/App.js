@@ -5,7 +5,7 @@ import BusinessList from './components/BusinessList/BusinessList';
 import SearchBar from './components/SearchBar/SearchBar';
 
 const business = {
-  imageSrc: '',
+  imageSrc: 'https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg',
   name: 'MarginOtto Pizzeria',
   address: '1010 Paddington Way',
   city: 'Flavortown',
@@ -16,7 +16,9 @@ const business = {
   reviewCount: 90
 };
 
-const businesses = ['business', 'business', 'business', 'business', 'business', 'business'];
+const businesses = [
+business, business, business, business, business, business, business, business, business
+];
 
 class App extends Component {
   render() {
