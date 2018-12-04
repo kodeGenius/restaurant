@@ -21,6 +21,9 @@ business, business, business, business, business, business, business, business, 
 ];
 
 class App extends Component {
+searchYelp(term, location, sortBy){
+
+}
   render() {
     return (
       <div class="App">

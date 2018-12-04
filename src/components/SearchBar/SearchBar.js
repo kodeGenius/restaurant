@@ -2,8 +2,6 @@ import React from 'react';
 //import ReactDOM from 'react-dom';
 import './SearchBar.css';
 
-
-
 class SearchBar extends React.Component{
 	constructor(props){
 		super(props);
@@ -61,8 +59,8 @@ handleLocationChange(event){
 			    </ul>
 			  </div>
 			  <div className="SearchBar-fields">
-			    <input placeholder="Search Businesses" />
-			    <input placeholder="Where?" />
+			    <input onChange = {this.handleTermChange} placeholder="Search Businesses" />
+			    <input onChange={this.handleLocationChange} placeholder="Where?" />
 			  </div>
 			  <div className="SearchBar-submit">
 			    <a href='1000coders.com'>Let's Go</a>
