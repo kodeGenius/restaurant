@@ -13,7 +13,7 @@ getSortByClass(sortByOption){
 		return 'active';
 	} else { 
 
-		return ' '
+		return ' ';
 	}
 }
 
