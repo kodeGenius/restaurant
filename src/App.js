@@ -22,7 +22,7 @@ business, business, business, business, business, business, business, business, 
 
 class App extends Component {
 searchYelp(term, location, sortBy){
-
+	console.log('Searching Yelp with Pizza, Brooklyn, best_match');
 }
   render() {
     return (
