@@ -70,7 +70,7 @@ handleSearch(event){
 			    <input onChange={this.handleLocationChange} placeholder="Where?" />
 			  </div>
 			  <div className="SearchBar-submit">
-			    <a href='1000coders.com'>Let's Go</a>
+			    <a onClick={this.handleSearch}>Let's Go</a>
 			  </div>
 			</div>
 		)
