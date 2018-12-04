@@ -21,6 +21,7 @@ business, business, business, business, business, business, business, business, 
 ];
 
 class App extends Component {
+	
 searchYelp(term, location, sortBy){
 	console.log('Searching Yelp with Pizza, Brooklyn, best_match');
 }
@@ -28,7 +29,7 @@ searchYelp(term, location, sortBy){
     return (
       <div class="App">
         <h1>restaurant</h1>
-        <SearchBar />
+        <SearchBar searchYelp={this.searchYelp} />
         <BusinessList businesses = {businesses} /> 
       </div>
     );
