@@ -6,7 +6,7 @@ const Yelp = {
       `https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}`,
       {
         headers: {
-          Authorization: `Bearer ${apiKey}`
+          Authorization: `Bearer ${apikey}`
         }
       }
     )
@@ -21,8 +21,8 @@ const Yelp = {
               imageSrc: business.image_url,
               name: business.name,
               address: business.address,
-              city: business.city,
-              state: business.state,
+              city: business.location.city,
+              state: business.location.state,
               zipCode: business.zipCode,
               category: business.categories[0].title,
               rating: business.rating,
