@@ -1,4 +1,4 @@
-This project was boots [Create React App](https://github.com/facebook/create-react-app).
+This project was boot [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
