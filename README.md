@@ -1,4 +1,4 @@
-This project was bootstra [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstr [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
