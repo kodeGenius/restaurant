@@ -1,4 +1,4 @@
-This proje  [Create React App](https://github.com/facebook/create-react-app).
+This proj  [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
