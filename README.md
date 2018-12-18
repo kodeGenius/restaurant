@@ -1,4 +1,4 @@
-This project was b [Create React App](https://github.com/facebook/create-react-app).
+This project was  [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
