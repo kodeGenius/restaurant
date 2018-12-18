@@ -1,4 +1,4 @@
-Th [Create React App](https://github.com/facebook/create-react-app).
+T [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
