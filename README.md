@@ -1,6 +1,6 @@
 [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scr
+## Available Sc
 
 
 In the project directory, you can run:
