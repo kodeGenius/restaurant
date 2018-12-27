@@ -1,6 +1,6 @@
 [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Script
+## Available Scrip
 
 
 In the project directory, you can run:
