@@ -3,7 +3,7 @@
 ## Available
 
 
-In the project directory, you can run:
+In the project directory, you ca run:
 
 ### npm start
 
