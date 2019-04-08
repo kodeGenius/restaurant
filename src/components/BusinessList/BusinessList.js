@@ -1,3 +1,4 @@
+// BusinessList Component
 import React from 'react';
 //import ReactDOM from 'react-dom';
 import './BusinessList.css';
