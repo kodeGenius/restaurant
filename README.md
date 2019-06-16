@@ -1,7 +1,3 @@
-[Create React App](https://github.com/facebook/create-react-app).
-
-## Available
-
 
 In the project directory, you ca run:
 
