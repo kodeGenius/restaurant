@@ -37,7 +37,7 @@ const Yelp = {
 
 export default Yelp;
 
-
+//exported
 
 
 
