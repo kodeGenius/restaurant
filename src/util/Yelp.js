@@ -1,6 +1,7 @@
-const apikey = "YqRScCgClJAqWZWGIJCNrJWkN0Y654nqJ-nMnvxklAPY0DNiNGDHF5c7xWO4lDUMPBPa7BVf9gQjKGKXmbYyNpPoMON5kbcTFPJmH7zpdlvGHdD45_q3wV6obUYv4IXHYx";
 //api key not correct
 // Generate new key for App to work
+const apikey = "YqRScCgClJAqWZWGIJCNrJWkN0Y654nqJ-nMnvxklAPY0DNiNGDHF5c7xWO4lDUMPBPa7BVf9gQjKGKXmbYyNpPoMON5kbcTFPJmH7zpdlvGHdD45_q3wV6obUYv4IXHYx";
+
 const Yelp = {
   searchYelp(term, location, sortBy) {
     return fetch(
