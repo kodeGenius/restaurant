@@ -1,4 +1,4 @@
-//js editor
+//js edit
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
