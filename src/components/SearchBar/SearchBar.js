@@ -2,7 +2,7 @@ import React from 'react';
 //import ReactDOM from 'react-dom';
 import './SearchBar.css';
 
-// sorting componen
+// sorting compo
 const sortByOptions = {
   'Best Match': 'best_match',
   'Highest Rated': 'rating',
